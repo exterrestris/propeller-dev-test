@@ -4,6 +4,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/PropellerApi" isTestSource="false" packagePrefix="OpenAPI\Client\" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/PropellerApi/test/Api" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/PropellerApi/test/Model" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/php/lib" isTestSource="false" packagePrefix="OpenAPI\Client\" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/php/test" isTestSource="true" packagePrefix="OpenAPI\Client\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/out/php/test/Api" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/out/php/test/Model" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
@@ -131,6 +138,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/extra-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
